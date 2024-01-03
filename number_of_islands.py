@@ -9,6 +9,8 @@ graph = {}
 test = 0
 y = 0
 t = 0
+tetsts = 0
+syiayiua = ''
 for i in range(n):
     for j in range(m): #djdlhh
         if matrix[i][j]=='1':
