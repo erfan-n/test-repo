@@ -6,8 +6,10 @@ temp_list = []
 for i in range(n):
     matrix.append(list(input().split()))
 graph = {}
+test = 0
+y = 0
 for i in range(n):
-    for j in range(m): #djd
+    for j in range(m): #djdlhh
         if matrix[i][j]=='1':
             graph[str(i)+str(j)] = []
             if j-1>=0 and matrix[i][j-1]=='1':
