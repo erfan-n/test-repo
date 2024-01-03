@@ -8,6 +8,7 @@ for i in range(n):
 graph = {}
 test = 0
 y = 0
+t = 0
 for i in range(n):
     for j in range(m): #djdlhh
         if matrix[i][j]=='1':
