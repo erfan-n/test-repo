@@ -9,6 +9,7 @@ graph = {}
 test = 0
 y = 0
 t = 0
+end1 = 0
 tetsts = 0
 syiayiua = ''
 for i in range(n):
