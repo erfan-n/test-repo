@@ -6,9 +6,6 @@ temp_list = []
 for i in range(n):
     matrix.append(list(input().split()))
 graph = {}
-test = 0
-y = 0
-t = 0
 tetsts = 0
 syiayiua = ''
 for i in range(n):
@@ -37,6 +34,7 @@ for i in range(n):
                     graph[str(i)+str(j)] = list(str(i+1)+str(j))
 visited = set()
 color = []
+khkas = 0
 colour = 0
 def dfs(visited,graph,root,colour):
     if root not in visited:
